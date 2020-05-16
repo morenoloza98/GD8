@@ -115,7 +115,7 @@ describe('BankAcc', () => {
                     amount: 220.00, 
                     finalBalance: newBalance + 220.00
                 }
-            ], account.merge(newAccount).hist);
+            ], account.merge(newAccount).history());
         });
     });
 
